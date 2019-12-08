@@ -54,7 +54,7 @@ interactions = [
 ]
 ```
 実行すると、下記のような実験計画表とEXCELが出力されます。  
-![実験計画]('https://github.com/pama80000/Design_of_Experiment/blob/master/sample-table.png')
+![実験計画](https://github.com/pama80000/Design_of_Experiment/blob/master/sample-table.png)
 
 
 ## Analysis the result 2-level orthogonal table
