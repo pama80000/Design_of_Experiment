@@ -36,5 +36,5 @@ Copyright (c) 2019 Shintaro Yawata
 # 参考 - References
 参考にした情報源（サイト・論文）などの情報、リンク
 
-http://jasst.jp/archives/jasst05w/pdf/S4-1.pdf
+http://jasst.jp/archives/jasst05w/pdf/S4-1.pdf  
 https://www.slideshare.net/hajimemizuyama/par-49440366
