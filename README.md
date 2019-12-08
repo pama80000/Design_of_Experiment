@@ -35,7 +35,7 @@ Pythonならrequirements.txtを用意するのも良い -->
 - カレー粉種類：横須賀海軍 / バーモント
 これを下記のように入力します。  
 
----python
+'''python3
 # 因子の名前
 factor_symbols_all = ["時間", "小麦", "カレー粉"]
 
@@ -53,7 +53,7 @@ interactions = [
 #     [0, 1],    # AxB
 #     [1, 2]     # BxC
 ]
----
+'''
 
 ## Analysis the result 2-level orthogonal table
 <!-- このソフトはどんなもので、何ができるのかを書く
