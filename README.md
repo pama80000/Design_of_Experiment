@@ -1,8 +1,10 @@
 # Pythonによる実験計画法 - Design_of_Experiment(DoE) with Python in Jupyter Notebook
 今回は、下記をPython + Jupyter notebookで実装しました。
 - 2水準系の直交表を用いた実験計画の作成
-- 上記実験結果の解析
+- 上記実験結果の解析(可視化から分散分析まで)
 
+# 特徴 - Feature
+- 因子だけでなく、交互作用も自動的に割り付け、解析できます。
 
 # 使用言語とライブラリ - Dependency
 <!-- 使用言語とバージョン、必要なライブラリとそのバージョンを書く
