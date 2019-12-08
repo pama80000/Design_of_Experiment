@@ -28,7 +28,7 @@ Pythonならrequirements.txtを用意するのも良い -->
 - 2水準直交表への因子と交互作用の割付(わりつけ)を行います。
 - 割付後の表を実験計画としてEXCELに出力します。 
 
-●パラメータの例
+●パラメータのex)
 美味しいカレーに影響を与えるパラメータを調べたいとします。
 - 煮込み時間：20 / 60 min
 - 小麦粉割合：5 / 10 %
@@ -63,6 +63,26 @@ interactions = [
 - analysis_expt_result_2_levels.ipynb
 - 前回作成した2水準系直交表を用いた実験後の結果データを用いて、  
 因子と交互作用の効果を可視化・分析・推定します。 
+
+●ex)
+先程出力したEXCELに、結果を記入して保存します。  
+![実験結果](https://github.com/pama80000/Design_of_Experiment/blob/master/sample-result.png)  
+
+コードでファイルを指定します。
+```python3
+path = 'result_Expt_Plan_L4.xlsx'
+```
+結果がグラフで表示されます。
+![結果プロット](https://github.com/pama80000/Design_of_Experiment/blob/master/sample-plot.png)  
+![結果棒グラフ](https://github.com/pama80000/Design_of_Experiment/blob/master/sample-bar.png)  
+
+また、今回の場合は、結果から小麦を誤差としてプーリングするため、指定してやる必要があります。
+```python3
+# ['時間', '小麦', 'カレー粉']
+pool_list = [0,1,0] 
+```
+そうすると、下記のように分散分析されます。
+![分析結果](https://github.com/pama80000/Design_of_Experiment/blob/master/sample-analysis.png) 
 
 # ライセンス - License
 <!-- This software is released under the MIT License, see LICENSE. -->
