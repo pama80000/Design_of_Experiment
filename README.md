@@ -1,9 +1,5 @@
 # Pythonによる実験計画法 - Design_of_Experiment(DoE) with Python in Jupyter Notebook
-## Automatic assignment to 2-level orthogonal table + creation of experiment plan
-<!-- このソフトはどんなもので、何ができるのかを書く
-合わせて、簡単なデモ（使用例）などスクリーンショットやGIFアニメで表示 -->
-- 2水準直交表への因子と交互作用の割付(わりつけ)を行います。
-- 割付後の表を実験計画としてEXCELに出力します。
+
 
 
 # 使用言語とライブラリ - Dependency
@@ -22,7 +18,18 @@ Pythonならrequirements.txtを用意するのも良い -->
 [Anacondaの説明やインストール方法(参考リンク)](https://knowledge.sakura.ad.jp/17235/ "Anaconda参考リンク")
 
 # 使用方法 - Usage
-使い方。なるべく具体的に書く。サンプルも書く
+<!-- 使い方。なるべく具体的に書く。サンプルも書く -->
+## Automatic assignment to 2-level orthogonal table + creation of experiment plan
+<!-- このソフトはどんなもので、何ができるのかを書く
+合わせて、簡単なデモ（使用例）などスクリーンショットやGIFアニメで表示 -->
+- 2水準直交表への因子と交互作用の割付(わりつけ)を行います。
+- 割付後の表を実験計画としてEXCELに出力します。 
+
+## Analysis the result 2-level orthogonal table
+<!-- このソフトはどんなもので、何ができるのかを書く
+合わせて、簡単なデモ（使用例）などスクリーンショットやGIFアニメで表示 -->
+- 前回作成した2水準系直交表を用いた実験後の結果データを用いて、  
+因子と交互作用の効果を可視化・分析・推定します。 
 
 # ライセンス - License
 <!-- This software is released under the MIT License, see LICENSE. -->
